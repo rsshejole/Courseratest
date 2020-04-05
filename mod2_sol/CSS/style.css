@@ -6,7 +6,7 @@ body {
 }
 .rows  {
 	position: relative;
-	background-color: grey;
+	background-color: #787878;
 	border: 2px solid black;
 	margin: 10px;
 	height: 250px;
