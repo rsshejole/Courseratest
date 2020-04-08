@@ -4,13 +4,12 @@ body {
 	background-color: #61122f;
 	font-family: 'Oxygen', sans-serif; 
 }
-#head-navbar {
+.navbar{
 	background-color: yellow;
+	
+
+	
 }
-	
-
-	
-
 .logo-image {
 	background-image: url('../image/logo.png'); 	
 	background-repeat: no-repeat;
