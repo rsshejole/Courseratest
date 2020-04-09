@@ -70,4 +70,64 @@ button.navbar-toggler , .navbar-toggler-icon {
 
 
 
+@media (min-width: 1200px){
 
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.logo-image {
+		width: 160px;
+		height: 100px;
+	}
+	
+	.navbar-brand h1 {
+		font-size: 1.8em;
+	}
+	.navbar-brand span {
+		font-size: 0.8em;
+	}
+	.star {
+		width: 25px;
+		height: 25px;
+
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+	.logo-image {
+		width: 100px;
+		height: 80px;
+	}
+	
+	.navbar-brand h1 {
+		font-size: 1.2em;
+	}
+	.navbar-brand span {
+		font-size: 0.5em;
+	}
+	.star {
+		width: 20px;
+		height: 20px;
+
+	}
+
+}
+@media (max-width: 767px ) {
+	.logo-image {
+		width:70px;
+		height: 70px;
+	}
+
+	.navbar-brand h1 {
+		font-size: 1.1em;
+	}
+	.navbar-brand span {
+		font-size: 0.6em;
+	}
+	.star {
+		width: 15px;
+		height: 15px;
+
+	}
+}
