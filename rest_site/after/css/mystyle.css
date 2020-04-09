@@ -5,10 +5,7 @@ body {
 	font-family: 'Oxygen', sans-serif; 
 }
 .navbar{
-	background-color: yellow;
-	
-
-	
+	background-color: yellow;	
 }
 .logo-image {
 	background-image: url('../image/logo.png'); 	
@@ -21,7 +18,32 @@ body {
 	
 
 }
+#navlist {
+	text-align: center;
+	
+}
+#navlist a:hover {
+	background-color: white;
+}
+#contentlist{
+	clear: both;
+	padding-left: 40px;
+} 
 
+#phone a {
+	font-size: 1.4em;
+	text-align: right;
+	padding-bottom: 0;
+	color: maroon;
+	font-weight: bold;
+	vertical-align: center;
+}
+
+#phone div {
+	color: #5573ce;
+	text-align:right;
+	padding-right: 15px;
+}
 
 .navbar-brand {
 	color:green;
@@ -37,7 +59,15 @@ body {
 }
 .navbar-brand span {
 	vertical-align: center;
-	font-size: 15px;
+	
 }
+
+button.navbar-toggler , .navbar-toggler-icon {
+	
+	color: maroon;
+
+}
+
+
 
 

@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+	<title>mysite</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css\bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css\mystyle.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+	
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b016b43603.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<base href="">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 </head>
 <body>
-	<header >
-		<nav class="navbar" >
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light" >
 			<div class="container">
 				<div>
 					<a href="mysite.html" class="float-left d-none d-md-block">
@@ -23,17 +29,45 @@
 							<h1>Fasoos Restaurant</h1>
 						</a>
 						<p>
-							<img src="C:\Users\cw\Courseratest\rest_site\after\image\star.png" class="star">
+							<img src="C:/Users/cw/Courseratest/rest_site/after/image/star.png" alt="" class="star">
 							<span>No.1 Restaurant in Mumbai</span>	
-						</p>
-										
-														
-						
+						</p>	
+
+									 
+								
+					
 					</div>
 					
 				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contentlist"  aria-expanded="false" >
+    							<span class="navbar-toggler-icon"></span>
+  			</button>	
+  					<div id="contentlist" class="collapse navbar-collapse float-right ">
+  						<ul id="navlist" class="navbar-nav mr-auto ">
+  							<li class="nav-item active">
+  								<a href="#" class="nav-link">Menu</a>
+  							</li>
+  							<li class="nav-item">
+  								<a href="#" class="nav-link">About</a>
+  							</li>
+  							<li class="nav-item">
+  								<a href="#" class="nav-link">Awards</a>
+  							</li>
+
+  							<li class="nav-item d-none d-sm-block" id="phone" >
+
+  								<a class="nav-link" href="tel:8408877529"><span>
+  									840-88-77-529</span></a><div>*We Deliver*</div>
+  								
+  							</li>
+  						</ul>
+  					</div>
+
 			</div>
+			
 		</nav>
 	</header>
+	
+					
 </body>
 </html>
