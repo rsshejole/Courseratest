@@ -23,7 +23,7 @@ body {
 	
 }
 #navlist a:hover {
-	background-color: white;
+	background-color: transparent;
 }
 #contentlist{
 	clear: both;
