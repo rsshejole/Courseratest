@@ -116,18 +116,23 @@ button.navbar-toggler , .navbar-toggler-icon {
 @media (max-width: 767px ) {
 	.logo-image {
 		width:70px;
-		height: 70px;
+		height: 80px;
 	}
 
 	.navbar-brand h1 {
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 	.navbar-brand span {
-		font-size: 0.6em;
+		font-size: 0.5em;
 	}
 	.star {
-		width: 15px;
-		height: 15px;
+		width: 13px;
+		height: 13px;
 
+	}
+	.navbar button {
+		
+		border: 1px solid white;
+		
 	}
 }
