@@ -123,17 +123,21 @@ button.navbar-toggler , .navbar-toggler-icon {
 
 	}
 	#phonesm a {
-	font-size: 1.4em;	
+	font-size: 1.6em;	
 	padding-bottom: 0;
-	
+	color: maroon;
 	font-weight: bold;
 	vertical-align: center;
+	text-align:center; 
+	background-color: yellow;
+	
 	}
 
 	#phonesm div {
 	color: #5573ce;
-	
+	text-align: center;
 	padding-right: 15px;
+	background-color: yellow;
 	}
 	
 
@@ -169,7 +173,7 @@ button.navbar-toggler , .navbar-toggler-icon {
 	vertical-align: center;
 	text-align:center; 
 	background-color: yellow;
-	
+
 	}
 
 	#phonesm div {
