@@ -28,6 +28,7 @@ body {
 #contentlist{
 	clear: both;
 	
+	
 } 
 
 #phone a {
@@ -70,8 +71,15 @@ button.navbar-toggler , .navbar-toggler-icon {
 
 
 
-@media (min-width: 1200px){
 
+@media (min-width: 1200px){
+		#contentlist {
+			padding-left: 30px ;
+			padding-top: 60px;
+		}
+		#phone a{
+			font-size: 1.7em;
+		}
 }
 
 
@@ -91,6 +99,9 @@ button.navbar-toggler , .navbar-toggler-icon {
 		width: 25px;
 		height: 25px;
 
+	}
+	#contentlist {
+		padding-left: 60px;
 	}
 }
 
