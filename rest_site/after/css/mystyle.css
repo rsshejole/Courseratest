@@ -27,7 +27,7 @@ body {
 }
 #contentlist{
 	clear: both;
-	
+
 	
 } 
 
@@ -122,6 +122,20 @@ button.navbar-toggler , .navbar-toggler-icon {
 		height: 20px;
 
 	}
+	#phonesm a {
+	font-size: 1.4em;	
+	padding-bottom: 0;
+	
+	font-weight: bold;
+	vertical-align: center;
+	}
+
+	#phonesm div {
+	color: #5573ce;
+	
+	padding-right: 15px;
+	}
+	
 
 }
 @media (max-width: 767px ) {
@@ -146,4 +160,22 @@ button.navbar-toggler , .navbar-toggler-icon {
 		border: 1px solid white;
 		
 	}
-}
+
+	#phonesm a {
+	font-size: 1.4em;	
+	padding-bottom: 0;
+	color: maroon;
+	font-weight: bold;
+	vertical-align: center;
+	text-align:center; 
+	background-color: yellow;
+	
+	}
+
+	#phonesm div {
+	color: #5573ce;
+	text-align: center;
+	padding-right: 15px;
+	background-color: yellow;
+	}
+	

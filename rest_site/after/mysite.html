@@ -5,8 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-	
+     <script src="js/bootstrap.min.js"></script>	
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/b016b43603.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -17,7 +16,7 @@
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light" >
+		<nav class="navbar navbar-expand-lg navbar-light navbar-static-top" >
 			<div class="container">
 				<div>
 					<a href="mysite.html" class="float-left ">
@@ -39,10 +38,11 @@
 					</div>
 					
 				</div>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contentlist"  aria-expanded="false" >
+				<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#contentlist"  aria-expanded="false" >
     							<span class="navbar-toggler-icon"></span>
   			</button>	
   					<div id="contentlist" class="collapse navbar-collapse float-right ">
+  						<hr>
   						<ul id="navlist" class="navbar-nav mr-auto ">
   							<li class="nav-item ">
   								<a href="#" class="nav-link"><i class="fa fa-cutlery" aria-hidden="true"></i><br class="d-none d-lg-block"> Menu </a>
@@ -68,7 +68,12 @@
 			
 		</nav>
 	</header>
-	
+	<div id="phonesm" class="d-block d-sm-none">
+		<a class="nav-link" href="tel:8408877529">
+			<span>840-88-77-529</span>
+		</a>
+		<div>Call us<i class="fa fa-phone" aria-hidden="true"></i></div></div>
+	</div>
 					
 </body>
 </html>
