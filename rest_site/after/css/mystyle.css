@@ -128,7 +128,11 @@ button.navbar-toggler , .navbar-toggler-icon {
 	}
 
 
-
+	#Copyright {
+		text-align: center;
+		color: grey;
+		margin-top: 10px;
+	}
 
 
 
