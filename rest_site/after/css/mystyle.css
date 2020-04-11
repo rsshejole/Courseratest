@@ -222,11 +222,12 @@ button.navbar-toggler , .navbar-toggler-icon {
 	}
 	#address , #testimonials,#hours {
 		margin-top: 15px;
-		width: 60%;
+		width: 70%;
 		margin-left: auto;
 		margin-right: auto;
-
+		border-radius: 10px;
 	}
+
 
 	
 
