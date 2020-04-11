@@ -68,20 +68,58 @@ body {
 }
 
 button.navbar-toggler , .navbar-toggler-icon {
-	
+	border: none;
 	color: maroon;
 
 }
 
 .container .jumbotron {
+	
 	background: url("../image/lpic.jpg") no-repeat;
 	height: 675px;
 	padding: 0px;
 	border: 2px solid black;
 	margin-top: 20px;
-	border-radius: 10px;
+	border-radius: 5px;
 
 }
+
+.img-fluid{
+	height: 100%;
+	width: 100%
+}
+
+#menu-tiles, #special-tiles, #map-tiles {
+		border: 1px solid black;
+		padding: 8px;
+		position: relative;
+		height: 240px;
+		overflow: hidden;
+
+	}
+#menu-tiles:hover, #special-tiles:hover, #map-tiles:hover {
+	box-shadow: 0 1px 5px 1px #cccccc ;
+}
+
+	#menu-tiles span, #special-tiles span, #map-tiles span {
+		position: absolute;
+		bottom: 2px;
+		width: 100%;
+		text-align: center;
+		font-size: 1.6em;
+		right: 0;
+		color: white;
+		
+		background-color: #000;
+		opacity: 0.8;
+
+
+	}
+
+	
+
+
+
 
 
 
@@ -96,6 +134,7 @@ button.navbar-toggler , .navbar-toggler-icon {
 		#phone a{
 			font-size: 1.7em;
 		}
+		
 }
 
 
@@ -122,6 +161,7 @@ button.navbar-toggler , .navbar-toggler-icon {
 	.container .jumbotron {
 	background: url("../image/lpic.jpg") no-repeat;
 	height: 500px;
+	background-size: cover;
 	}
 }
 
@@ -162,10 +202,20 @@ button.navbar-toggler , .navbar-toggler-icon {
 	}
 	.container .jumbotron {
 	background: url("../image/lpic.jpg") no-repeat;
-	height: 400px;
+	height: 449px;
+	background-size: cover;
 	}
+	#menu-tiles, #special-tiles, #map-tiles {
+		
+		height: 220px;
+		
+
+	}
+
 	
 
+	
+	
 }
 @media (max-width: 767px ) {
 	.logo-image {
@@ -213,7 +263,8 @@ button.navbar-toggler , .navbar-toggler-icon {
 	}
 	.container .jumbotron {
 	background: url("../image/lpic.jpg") no-repeat;
-	height: 400px;
+	height: 256px;
+	background-size: cover;
 	}
 
 }
