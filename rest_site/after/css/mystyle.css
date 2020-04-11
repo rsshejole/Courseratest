@@ -116,7 +116,16 @@ button.navbar-toggler , .navbar-toggler-icon {
 
 	}
 
-	
+	#hours , #address , #testimonials {
+		background-color: #cccccc;
+		border: 5px maroon;
+		color: black;
+		text-align: left;
+		margin-top: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border: 9px solid #d9d9d9;
+	}
 
 
 
@@ -211,6 +220,13 @@ button.navbar-toggler , .navbar-toggler-icon {
 		
 
 	}
+	#address , #testimonials,#hours {
+		margin-top: 15px;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
 
 	
 
@@ -228,6 +244,7 @@ button.navbar-toggler , .navbar-toggler-icon {
 	}
 	.navbar-brand span {
 		font-size: 0.5em;
+		color: maroon;
 	}
 	.star {
 		width: 13px;
