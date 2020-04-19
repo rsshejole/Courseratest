@@ -47,15 +47,18 @@ jQuery(document).ready(function($){
 	//show loading gif
 	var showLoading =  function (selector){
 		var html = "<div class = 'text-center'>"
-		html += "<img src = 'image/ajax-loader.gif'></div>"
+		html += "<img src = '../image/load.gif'></div>"
 		insertHTML(selector,html)
 	}
 
 
 	document.addEventListener("DOMContentLoaded",function(event){
 
-		showLoading("#main_content");
 
+
+		showLoading("#main_content")
+		
+		
 
 		$ajaxUtils.sendGetRequest(homeHTML,
 
