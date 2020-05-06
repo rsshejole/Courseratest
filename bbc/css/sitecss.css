@@ -1,6 +1,16 @@
 *{
 	box-sizing: border-box;;
 }
+#amitp {
+	margin-left: 0;
+	margin-right: 0;
+}
+#logo {
+	padding-bottom:25px;
+	font-size: 3em;
+	font-weight: bold;
+}
+
 #first div {
 	margin:0px;
 	padding: 0px;
@@ -11,12 +21,37 @@
 #second {
 	background-color: #cc0000;
 }
+#amit2 {
+	padding-right: 0px;
+	padding-left:0px;
+	margin-left: 0;
+	margin-right: 0;
+	font-size: 1.1em;
+
+}
 #content a:link  {
 	font-size: 1.5em;
 
 	padding-left: 30px;
 	padding-right: 30px;
 
+}
+
+#navlist2  {
+	text-align: center;
+	padding:2px;
+	margin: auto;
+
+
+
+}
+#navlist2 a:link{
+	color:white;
+}
+
+#navlist1 {
+	text-align: center;
+	padding: 2px;
 }
 
 
@@ -37,7 +72,7 @@
 
 }*/
 
-#contentlist a:link{
+/*#contentlist a:link{
 	font-size: 1em;
 	color: white;
 	padding: 0;
@@ -45,7 +80,7 @@
 	vertical-align: center;
 	padding-right: 20px;
 	padding-left: 20px;
-}
+}*/
 .jumbotron > div > div {
 	
 	padding: 20px;
